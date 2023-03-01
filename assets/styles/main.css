@@ -3,6 +3,10 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     padding: 20px;
     background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 label:not(.radio), input[type="submit"], #radio-container {
@@ -16,3 +20,30 @@ textarea {
     min-height: 300px;
 }
 
+h4 {
+    margin-bottom: 0px;
+}
+
+#text {
+    background-color: white;
+    max-width: 300px;
+    cursor: copy;
+    border: 1px solid rgba(0,0,0,0.5);
+    min-height: 300px;
+}
+
+
+
+#go-back, #go-back:visited {
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #f6f6f6;
+    box-shadow: 1px 1px #000;
+}
+
+#go-back:hover {
+    background-color: #e6e6e6;
+}

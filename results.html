@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,20 @@
     <title>Results</title>
     <link rel="stylesheet" href="assets/styles/main.css" />
 </head>
+
 <body>
     <div id="container">
-        <h1>Encrypted/Decrypted Text</h1>
-        <p id="text"></p>
+        <h1>Caesar Cipher</h1>
+        <!-- Key -->
+        <h4>The cipher key is: </h4>
+        <p id="key"></p>
+        <!-- Text -->
+        <h4 id="notification">The cipher text is: </h4>
+        <p id="text" title="click to copy text to clipboard"></p>
+        <!-- Button Link -->
+        <a href="./index.html" id="go-back">Go Back</a>
     </div>
     <script src="assets/scripts/results.js"></script>
 </body>
+
 </html>
